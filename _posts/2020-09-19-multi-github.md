@@ -3,7 +3,7 @@ title: "SSH key & multi GitHub & IntelliJ"
 date: 2020-09-19 23:03:30 +0900
 categories: chan update
 ---
-## SSH key 발급
+# SSH key 발급
 
 - git bash에서 실행
 - 아래 명령 입력, 이메일은 수정
@@ -29,7 +29,7 @@ Enter same passphrase again: [Type passphrase again]
 $ clip < ~/.ssh/id_rsa.pub
 ```
 
-## 발급한 SSH key를 ssh-agent에 등록
+# 발급한 SSH key를 ssh-agent에 등록
 
 - ssh-agent 시작하기
 ```
@@ -51,7 +51,7 @@ $ ssh-add ~/.ssh/id_rsa
 ```
 
 
-## GitHub 계정에 SSH key 등록
+# GitHub 계정에 SSH key 등록
 
 - Sign in  > 아이콘 클릭 > Settings
 
@@ -75,8 +75,7 @@ $ ssh-add ~/.ssh/id_rsa
 ***
 
 
-Multi SSH keys 셋팅
----
+# Multi SSH keys 셋팅
 
 - 위의 방법으로 여러개의 키를 생성, ssh-agent에 추가
 
@@ -107,7 +106,7 @@ Multi SSH keys 셋팅
         IdentityFile ~/.ssh/id_rsa_jexchan
 ```
 ***
-## IntelliJ 에 SSH key 적용
+# IntelliJ 에 SSH key 적용
 
 - VCS > Checkout from Version Control > Git
 
