@@ -12,11 +12,11 @@
 
 #theme                    : "minimal-mistakes-jekyll"
 remote_theme             : mmistakes/minimal-mistakes
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Chan's github blog"
+title                    : "Chan's document repo"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Chan"
@@ -97,7 +97,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "chan's document repo"
   location         : "Somewhere"
-  email            : 
+  email            : "mailto:chan.lee@stayhome.li"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
